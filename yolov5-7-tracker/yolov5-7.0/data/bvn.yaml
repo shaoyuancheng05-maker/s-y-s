@@ -1,0 +1,10 @@
+path: ../../dataset   # 相对于 yolov5-7.0 项目根目录
+train: train            # 训练集图片（相对path，标签txt在同目录）
+val: test               # 验证集图片（相对path）
+test:                   # 可选
+
+# Classes
+names:
+  0: wrong way
+  1: no helmet
+  2: red_light_running
